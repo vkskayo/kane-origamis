@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./App.css";
 import { GiPaperCrane } from "react-icons/gi";
+import { GiGuitar } from "react-icons/gi";
 
 const imgSize = {
   width: 200,
@@ -37,12 +38,29 @@ function App() {
         </div>
       </div>
       <div className="p-5 second-section vw-100">
-        <h1 className="text-light">História</h1>
-        <GiPaperCrane color={"white"} size={100} />
+        <div className="d-flex justify-content-center flex-column align-items-center col-12 col-md-4 mx-auto">
+          <h1 className="text-light">História</h1>
+          <p className="text-white fs-5">
+            Recentemente, uma velha guitarra entrou em voga no mercado novamente
+            após um integrante de uma banda musical que eu gosto incitar sua
+            circulação.
+          </p>
+        </div>
       </div>
       <div className="p-5 third-section vw-100">
-        <h1 className="text-light">Objetivo</h1>
-        <GiPaperCrane color={"white"} size={100} />
+        <div className="d-flex justify-content-center flex-column align-items-center col-12 col-md-4 mx-auto gap-2">
+          <h1 className="text-light">Objetivo</h1>
+          <p className="text-white fs-5">
+            Eu desejo comprar esta guitarra, entretanto, possuo apenas 300
+            dólares e atualmente seu custo gira em torno de 500 dólares.
+          </p>
+          <div className="d-flex gap-4">
+            <div className="bar">
+              <div className="progress-bar"></div>
+            </div>
+            <GiGuitar size={40} />
+          </div>
+        </div>
       </div>
       <div className="p-5 fourth-section vw-100">
         <h1 className="text-light">Hobbie</h1>
