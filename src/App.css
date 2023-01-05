@@ -1,0 +1,31 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+} */
+
+h1,
+p {
+  font-family: "Gloria Hallelujah", cursive;
+}
+
+.first-section {
+  background-color: #cbe4f9;
+}
+
+.second-section {
+  background-color: #cdf5f6;
+}
+.third-section {
+  background-color: #eff9da;
+}
+.fourth-section {
+  background-color: #f9ebdf;
+}
+.fifth-section {
+  background-color: #f9d8d6;
+}
+.sixth-section {
+  background-color: #d6cdea;
+}
