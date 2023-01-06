@@ -10,6 +10,14 @@ p {
   font-family: "Gloria Hallelujah", cursive;
 }
 
+p {
+  color: gray;
+}
+
+h1 {
+  color: black;
+}
+
 .first-section {
   background-color: #cbe4f9;
 }
@@ -18,7 +26,7 @@ p {
   background-color: #cdf5f6;
 }
 .third-section {
-  background-color: #eff9da;
+  background-color: #dfff9b;
 }
 .fourth-section {
   background-color: #f9ebdf;
